@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Ethernet Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="img/robot-relaxing-laptop.jpg" alt="Técnico" class="perfil-nav">
+            <div class="logo">
+                <span>ETHERNET SOLUTIONS</span>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="form-wrapper">
+                <h1 style="color: var(--naranja); text-align: center; margin-bottom: 10px;">SOPORTE TÉCNICO</h1>
+                <p style="text-align: center; color: var(--gris); margin-bottom: 30px; font-family: 'Share Tech Mono', monospace;">
+                    > INICIANDO PROTOCOLO DE REGISTRO...
+                </p>
+
+                <form name="mi-formulario">
+                    <div class="campo">
+                        <label>NOMBRE COMPLETO</label>
+                        <input type="text" name="nombre" placeholder="Introduce tu nombre" required>
+                    </div>
+
+                    <div class="campo">
+                        <label>EMAIL DE CONTACTO</label>
+                        <input type="email" name="email" placeholder="usuario@ejemplo.com" required>
+                    </div>
+
+                    <div class="campo">
+                        <label>MÓDULO TÉCNICO</label>
+                        <select name="modulo" required>
+                            <option value="" disabled selected>Selecciona una especialidad</option>
+                            <option value="Montaje">Montaje y Mantenimiento</option>
+                            <option value="Redes">Redes Locales (LAN)</option>
+                            <option value="Sistemas">Sistemas Operativos</option>
+                            <option value="Seguridad">Seguridad Informática</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label>PRIORIDAD</label>
+                        <select name="prioridad" required>
+                            <option value="Baja">Baja - Mantenimiento</option>
+                            <option value="Media">Media - Incidencia</option>
+                            <option value="Alta">Alta - Crítico</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" id="submit-btn" class="btn-naranja" style="width: 100%; margin-top: 20px;">
+                        ENVIAR DATOS AL SERVIDOR
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Juan Manuel - Ethernet Solutions. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
