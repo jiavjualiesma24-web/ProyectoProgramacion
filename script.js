@@ -1,5 +1,5 @@
 // 1. ACTUALIZA ESTA VARIABLE con la última URL que has copiado de Google
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxckzkXbjUXYYNn0wWP4OQX6PkZvDFmCruZRzNU1S-kyhxr58-jBGjkOyd8qYvMW0I7/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw_wOwrBpaw-g4XdTsgVzF7QWa4QV4AtdslzISH4IezKfDyMiy3wdNWAbvKnpbRY67ElQ/exec'
 
 const form = document.forms['mi-formulario']
 
